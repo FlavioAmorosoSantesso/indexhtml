@@ -1,0 +1,36 @@
+.responsive {
+	font-family:"Gothic A1", sans-serif !important;
+	display:flex;
+    justify-content:center;
+}
+
+.container-fluid {
+	text-align:center;
+	font-family:"Gothic A1";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	text-align:center;
+	color: rgb(34, 125, 199);
+	background-color: rgb(17, 18, 65);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	display:block;
+	width: 100%;
+}
+
+.footer {
+	text-align: center; 
+	font-family:"Gothic A1";
+	color:rgb(34, 125, 199);
+	background-color: rgb(17, 18, 65);
+	display: flex;
+    justify-content: center;
+}
