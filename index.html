@@ -78,25 +78,25 @@
    <div class= "col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
      <section class="Fórmulario de Recomendaciones">
       <table>
-        <form>
+<!--Aún no existe un e-mail adecuado para recibir los comentarios-->
+        <form enctype="text/plain" action="mailto:creadordecontenido@gmail.com" method="post">
          <article>
           <legend>RECOMENDA NUEVOS TEMAS</legend>
         </article>
-<!--Aún no existe un e-mail adecuado para recibir los comentarios-->
-          <article>
-           <label for="nombre">NOMBRE Y APELLIDO:</label>
+        <article>
+           <label for="NOMBRE Y APELLIDO">NOMBRE Y APELLIDO:</label>
           </article>
-          <input type="text" id="nombre" name="user_name" required placeholder="Introduce tu nombre"/>
+          <input type="text" id="NOMBRE Y APELLIDO" required placeholder="TU NOMBRE Y APELLIDO"/>
           <article>
-           <label for="email">CORREO ELECTRÓNICO:</label>
+           <label for="CORREO ELECTRÓNICO">CORREO ELECTRÓNICO:</label>
           </article>
-          <input type="email" id="email" name="user_mail" required placeholder="Introduce tu email"/>
+          <input type="email" id="CORREO ELECTRÓNICO" required placeholder="TU CORREO ELECTRÓNICO"/>
           <article>
-           <label for="comentario">TEMAS SUGERIDOS:</label>
+           <label for="TEMAS SUGERIDOS">TEMAS SUGERIDOS:</label>
           </article>
-          <textarea id="msg" name="user_message"required placeholder="Introduce tu comentario" ></textarea>
+          <textarea id="TEMAS SUGERIDOS" required placeholder="TUS TEMAS SUGERIDOS" ></textarea>
           <article>
-           <button type="submit">ENVIAR</button>
+           <button type="submit">ENVIAR SUGERENCIA/S</button>
           </article>
         </form>
       </table>
@@ -113,3 +113,4 @@
   </footer>
  </body>
 </html>
+
