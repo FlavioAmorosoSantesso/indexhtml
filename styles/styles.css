@@ -1,4 +1,20 @@
-.responsive {
+#label {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+  }
+  #toggle {
+    display: none;
+  }
+  .oscuro {
+    background-color: rgb(17, 18, 65);
+    color: white;
+    transition: all 1.5s ease;
+  }
+  .responsive {
 	font-family:"Gothic A1", sans-serif !important;
 	display:flex;
     justify-content:center;
@@ -33,4 +49,8 @@
 	background-color: rgb(17, 18, 65);
 	display: flex;
     justify-content: center;
+}
+
+.botónoculto {
+	display: flex;
 }
